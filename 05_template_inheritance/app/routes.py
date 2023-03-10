@@ -10,7 +10,7 @@ def index():
                 'book':'bookname1'},
              {'author': 'authorname2',
               'book': 'bookname2'}]
-    return render_template('hello.html',name=name, books=book)
+    return render_template('hello.html',name=name, books=books)
 
 @myapp_obj.route("/hello")
 def hello():
